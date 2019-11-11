@@ -1,0 +1,20 @@
+{
+  "name": "down",
+  "version": "1.0.0",
+  "description": "爬虫项目",
+  "main": "download",
+  "scripts": {
+    "test": "node download"
+  },
+  "keywords": [
+    "爬虫"
+  ],
+  "author": "molong",
+  "license": "ISC",
+  "devDependencies": {
+    "requst": "0.0.1-security"
+  },
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
