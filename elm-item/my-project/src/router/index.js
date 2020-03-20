@@ -1,6 +1,6 @@
 //引入组件
 import Vue from 'vue'
-import VueRou from 'vue-router'
+import VueRouter from 'vue-router'
 import Main from '../pages/Main.vue'
 import Home from '../pages/Home.vue'
 import Recover from '../pages/Recover.vue'

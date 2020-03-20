@@ -30,7 +30,7 @@ var _Quit = _interopRequireDefault(require("../pages/Quit.vue"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 //引入组件
-_vue["default"].use(VueRouter); //创建路由
+_vue["default"].use(_vueRouter["default"]); //创建路由
 
 
 var routes = [//当页面为http://localhost:8080/home,在<router-view>加载Home组件
@@ -79,7 +79,7 @@ var routes = [//当页面为http://localhost:8080/home,在<router-view>加载Hom
   component: _Quit["default"],
   name: 'quit'
 }];
-var router = new VueRouter({
+var router = new _vueRouter["default"]({
   routes: routes
 });
 var _default = router;
